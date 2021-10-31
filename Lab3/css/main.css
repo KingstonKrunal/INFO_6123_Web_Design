@@ -1,0 +1,95 @@
+form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    width: 35%;
+    height: auto;
+    font-size: larger;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+    font-family: 'Zilla Slab', serif;
+}
+
+legend {
+    text-align: center;
+    font-size: xx-large;
+    margin: 5px;
+    padding: 50px 20px 5px;
+    font-family: 'Patua One', cursive;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:gray;
+    height: 1px;
+    margin-bottom: 1em;
+}
+
+p {
+    justify-content: center;
+}
+
+label {
+    vertical-align: middle;
+}
+
+label[for=userName] {
+    padding: 0 20% 0 0;
+}
+
+label[for=userEmail] {
+    padding: 0 21.5% 0 0;
+}
+
+label[for=userNumber] {
+    padding: 0 22% 0 0;
+}
+
+label[id=cMB] {
+    padding: 0 10% 0 0;
+}
+
+label[for=contactByEmail], label[for=contactByPhone] {
+    padding: 0;
+}
+
+label[for=messageType] {
+    padding: 0 11.8% 0 0;
+}
+
+label[for=messageTextArea] {
+    padding: 0 17% 0 0;
+}
+
+input[type=text], input[type=number], input[type=email], select, textarea {
+    width: 50%;
+    padding: 10px;
+}
+
+textarea {
+    vertical-align: middle;
+    padding: 30px;
+}
+
+input, select, textarea {
+    /* margin: 0 30%; */
+}
+
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 7% 30%;
+}
+
+#nameLabel::after, #messageTextAreaLabel::after {
+    content: "*";
+    color: red;
+    margin-left:2px
+}

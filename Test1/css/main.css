@@ -1,0 +1,108 @@
+body {
+    background-image: linear-gradient(#36363679, #36363679), url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    margin: 0;
+}
+
+#nav {
+    text-align: center;
+    background-color: #ffffff;
+    text-align: right;
+}
+
+#nav-list {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+#nav-list li {
+    color: #e27375;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#contentHeader {
+    color: #ffffff;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#destinations {
+    background-color: #ffffff;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+#popularDestinations {
+    font-size: x-large; 
+    color: #e27375;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+#places {
+    align-self: center;
+}
+
+.flex-container {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: #f5f5f5;
+    margin: 10px 10px 30px 10px;
+}
+
+.imgPlaces {
+    width: 100%;
+}
+
+.placeContainer {
+    padding: 10px;
+}
+
+.placeContainer h4 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Fira Mono', monospace;
+}
+
+#footer {
+    padding: 10px;
+    color: #ffffff;
+}
+
+#companyName {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (min-width: 641px) {
+    .flex-item {
+        flex: 45%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .flex-item {
+        flex: 30%;
+        margin-bottom: 70px;
+    }
+
+    .flex-container {
+        padding: 50px;
+    }
+}
