@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="London Pizza Website">
+    <meta name="keywords" content="Pizzas, Pepperoni Pizza">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Order - London Pizza</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+<main>
+    <header id="orderHeader">
+        <h2 id="title">Order Pizza Online</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="order.html">Orders</a></li>
+        </ul>
+    </header>
+    <section id="hero">
+        <img src="images/pizza.jpg" alt="a fresh pizza"/>
+        <div id="heroParagraph">
+            <h2>Order Now</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div id="leftDiv">
+                        <label id="nameLabel" class="required" for="name">Name</label>
+                    </div>
+                    <div id="rightDiv">
+                        <input type="text" id="name" name="name" placeholder="Full Name">
+                    </div>
+                    <div id="leftDiv">
+                        <label id="numberLabel" class="required" for="tNumber">Telephone Number</label>
+                    </div>
+                    <div id="rightDiv">
+                        <input type="number" id="tNumber" name="tNumber" placeholder="Phone Number">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Order</legend>
+                    <input id="pizzaBox" type="checkbox">
+                    <label for="pizzaBox" id="pizzaBoxLabel">Pepperoni Pizza</label>
+
+                    <div id="orderDetail">
+                        <div id="qty-div">
+                            <label id="qtyLabel" for="qty">Qty: </label>
+                            <input type="text" id="qty" name="qty">
+                        </div>
+                        <div id="size-div">
+                            <label id="sizeLabel" for="sizeSelection">Size</label>
+                            <select name="sizes" id="sizeSelection">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <div id="sbumitForm">
+                    <button type="button" id="placeOrderButton">Place Order</button>
+                    <!-- <input type="button" id="submit" name="submit"> -->
+                </div>
+            </form>
+        </div>
+    </section>
+
+</main>
+<footer>
+    <p>&copy; Copyright 2021</p>
+</footer>
+</body>
+
+</html>
