@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>SD Corporate</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Krunal Shah & Kartik Pancholi">
 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="topNav">
+    <a href="home.html">About Us</a>
+    <a href="applications.html">Applications</a>
+    <a href="products.html">Products</a>
+    <a href="contactUs.html">Contact Us</a>
+</div>
+
+<section>
+    <div class="heading">
+        <h1 id="mainTitle">SD Corporation</h1>
+        <p id="subtitle">We specialize in Woven Roving</p>
+    </div>
+</section>
+
+<section>
+    <div id="contactDiv">
+        <h1 id="contactTitle">CONTACT</h1>
+    </div>
+</section>
+
+<section id="contactFormSection">
+    <form>
+        <div class="fieldDiv">
+            <div id="nameField">
+                <input type="text" class="inputFields" id="name" placeholder="Name">
+            </div>
+            <div id="numberField">
+                <input type="number" class="inputFields" id="contactNumber" placeholder="Contact Number">
+            </div>
+            <div id="emailField">
+                <input type="email" class="inputFields" id="emailID" placeholder="Email ID">
+            </div>
+            <div>
+                <textarea id="comment" class="inputFields" placeholder="Comments" rows="5" cols="30"></textarea>
+            </div>
+            <div id="submitButton">
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</section>
+
+<div class="footer">
+    <p>&copy; 2021 SD Corporation</p>
+</div>
 </body>
 </html>
