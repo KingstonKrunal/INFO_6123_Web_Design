@@ -75,7 +75,7 @@ section {
     display: block;
 }
 
-#leftDiv {
+.leftDiv {
     flex: 60%;
     padding: 20px;
 }
@@ -85,7 +85,7 @@ section {
     padding: 20px;
 }
 
-#companyDescription {
+.companyDescription {
     font-family: 'Josefin Sans', sans-serif;
 }
 
