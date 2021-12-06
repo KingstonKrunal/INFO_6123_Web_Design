@@ -36,8 +36,25 @@ The content created has a meaningful message in order to capture the users' atte
 
 The last but not least a mobile friendly website. It helps the users' easily access whenever and wherever they want.
 
-**Website Accessibility Compliance Strategies** \
-s
+> **Website Accessibility Compliance Strategies** \
 
-**Search Engine Optimization Strategies**
-used keywords, description
+Determine Resources: The basic resources were used in order to build this website.
+
+Prioritize Issues: The issues for building the website were prioritized by the team, as listed below.
+
+1. Color contrast
+2. Typography
+3. Designing
+4. Content
+
+Goals and Milestones: The goals set for building the website were to provide the users with great viewing experience
+(designing) and accessibility too.
+
+Assign roles and responsibilities: Both the team members divided the work in an efficient manner and co-ordinated for
+all the styling and designing of the web pages.
+
+> **Search Engine Optimization Strategies**
+
+We have used meta keywords, description, and robots for search engine optimization. Meta keywords helps website to
+optimize search research based on included keywords. Meta description helps website to identify information about this
+company. Meta robots helps website to crawl better.
