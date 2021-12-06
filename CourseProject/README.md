@@ -1,11 +1,11 @@
-**SD Corporation**
+> **SD Corporation**
 
-**Group Members**
+> **Group Members**
 
 1. Krunal Shah
 2. Pancholi Kartik Tarun
 
-**Brief Summary**
+> **Brief Summary**
 
 1. Krunal Shah \
    I have worked on applications and products page of this website. Applications page depicts applications of our
@@ -17,8 +17,24 @@
    Contact us page displays a contact form to connect with corporation for inquiries. I have done overall designing,
    animations, transitions, and accessibility code for the home and contact us page.
 
-**Design Principles** \
-d
+> **Design Principles**
+
+The purpose of this website is to exhibit the company's portfolio. It has been conveyed to the users in quite simple and
+understandable manner. The company's brief has been provided in the home page of the website.
+
+The colours used throughout the website are chosen in consideration of the professional integrity. The combination of
+headings and paragraph texts have been used in such a way that retains the users' interest. All images used throughout
+the website are relevant to the content displayed.
+
+The navigation from the displaying page to a different page in the website has been considered to retain the users'
+focus.
+
+The visual hierarchy in the website has been maintained by providing proper white spacing, typography, color contrast,
+images and styles.
+
+The content created has a meaningful message in order to capture the users' attention for important information.
+
+The last but not least a mobile friendly website. It helps the users' easily access whenever and wherever they want.
 
 **Website Accessibility Compliance Strategies** \
 s
