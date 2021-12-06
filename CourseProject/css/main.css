@@ -1,3 +1,5 @@
+/* MOBILE VIEW */
+
 /* Home Page */
 
 * {
@@ -9,15 +11,30 @@
     display: flex;
     overflow: hidden;
     background-color: #292b75;
+    animation-name: navbarAnimation;
+    animation-duration: 5s;
+}
+
+@keyframes navbarAnimation {
+    0% {
+        background-color: #292b75;
+    }
+    50% {
+        background-color: #000;
+    }
+    100% {
+        background-color: #292b75;
+    }
 }
 
 /* Style the topnav links */
 .topNav a {
     float: left;
     display: block;
+    width: auto;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 5px;
     text-decoration: none;
 }
 
@@ -29,6 +46,8 @@
 
 /* Style the header */
 .heading {
+    animation-name: navbarAnimation;
+    animation-duration: 5s;
     background-color: #292b75;
     color: #fff;
     padding: 10px;
@@ -62,30 +81,46 @@ section {
 .content {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 7%;
 }
 
 .light {
     padding: 20px;
-    background-color: #fff;
 }
 
 .dark {
     padding: 20px;
-    background-color: #ddd;
-    display: block;
 }
 
 .leftDiv {
-    flex: 60%;
+    display: block;
     padding: 20px;
 }
 
 .rightDiv {
-    flex: 40%;
+    display: block;
     padding: 20px;
 }
 
-.companyDescription {
+.leftDiv2 {
+    display: block;
+    padding: 20px;
+}
+
+.rightDiv2 {
+    display: block;
+    padding: 20px;
+}
+
+.profile {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileDescription {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -93,27 +128,38 @@ section {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 300px;
-    height: 280px;
+    width: 200px;
+    height: 180px;
 }
 
 #profileDiv1 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
-    flex: 50%;
     text-align: center;
 }
 
 #profileDiv2 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
-    flex: 50%;
     text-align: center;
 }
 
 .profileImages {
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
     max-width: 250px;
     max-height: 250px;
+}
+
+.valuesDiv {
+    padding: 30px;
 }
 
 #mission {
@@ -155,27 +201,49 @@ section {
     padding: 10px;
 }
 
+.products {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+#productDivLeft {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    width: 50%;
+    display: block;
+}
+
+#productDivRight {
+    margin-left: 10%;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
 .productImages {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 80%;
-    height: 60%;
+    width: 280px;
+    height: auto;
     border-radius: 10%;
 }
 
 .productHeading {
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    text-align: center;
 }
 
 .productDescription {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+#div2 {
+    margin-bottom: 15%;
 }
 
 
@@ -225,16 +293,237 @@ section {
     color: #fff;
 }
 
-
-/* Style the footer */
-.footer {
-    padding: 10px;
+#submitButton {
+    margin-bottom: 20%;
 }
 
 
-@media screen and (min-width: 700px) {
+/* Style the footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #292b75;
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+/* TABLET VIEW */
+@media screen and (min-width: 600px) {
     .content, .navbar {
         flex-direction: column;
+    }
+
+    /* Navigation */
+    .topNav {
+        display: flex;
+        overflow: hidden;
+        background-color: #292b75;
+    }
+
+    .topNav a {
+        float: left;
+        display: block;
+        width: auto;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    .topNav a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    /* Home Page */
+    .companyDescription {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    #companyLogoImage {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 300px;
+        height: 280px;
+    }
+
+    /* Applications Page */
+    .applicationImages {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 320px;
+        max-height: 320px;
+        border-radius: 10%;
+    }
+
+}
+
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 900px) {
+    .content, .navbar {
+        flex-direction: column;
+    }
+
+    /* Navigation */
+    .topNav {
+        display: flex;
+        overflow: hidden;
+        background-color: #292b75;
+    }
+
+    .topNav a {
+        float: left;
+        display: block;
+        width: auto;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    .topNav a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    /* Home Page */
+    .leftDiv {
+        display: block;
+        float: left;
+        width: 60%;
+    }
+
+    .rightDiv {
+        display: block;
+        float: right;
+        width: 40%;
+    }
+
+    .companyDescription {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    #companyLogoImage {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        display: block;
+        width: 300px;
+        height: 280px;
+    }
+
+    #companyLogoImage:hover {
+        transform: scale(1.2, 1.2);
+    }
+
+    .profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profileDiv1 {
+        padding: 10px;
+        float: left;
+        display: block;
+        width: 50%;
+        text-align: center;
+        transition: transform 2s;
+    }
+
+    #profileDiv1:hover {
+        transform: rotateY(360deg);
+    }
+
+    #profileDiv2 {
+        padding: 10px;
+        float: right;
+        display: block;
+        width: 50%;
+        text-align: center;
+        transition: transform 2s;
+    }
+
+    #profileDiv2:hover {
+        transform: rotateY(360deg);
+    }
+
+    .profileDescription {
+        padding: 0 20px 20px 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+    }
+
+    .valuesDiv {
+        padding-left: 40px;
+    }
+
+
+    /* Applications Page */
+    .applicationImages {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 320px;
+        max-height: 320px;
+        border-radius: 10%;
+    }
+
+    .applicationImages:hover {
+        transform: scale(1.2, 1.2);
+    }
+
+    .leftDiv2 {
+        display: block;
+        float: right;
+        width: 60%;
+        padding: 20px;
+    }
+
+    .rightDiv2 {
+        display: block;
+        float: left;
+        width: 40%;
+        padding: 20px;
+    }
+
+
+    /* Products Page */
+    .productDivLeft {
+        display: block;
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .productDivRight {
+        display: block;
+        float: right;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .product1:hover {
+        transform: scale(1.2, 1.2);
+    }
+
+    .product2:hover {
+        transform: scale(1.2, 1.2);
+    }
+
+    .product3:hover {
+        transform: scale(1.2, 1.2);
+    }
+
+    .product4:hover {
+        transform: scale(1.2, 1.2);
     }
 
 
@@ -297,24 +586,7 @@ section {
         font-family: 'Josefin Sans', sans-serif;
     }
 
-    /* #submitButton {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 50%;
+    #submitButton {
+        margin-bottom: 10%;
     }
-  
-    #submit {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding: 5px;
-        width: 100px;
-        font-size: large;
-        font-family: 'Josefin Sans', sans-serif;
-        background-color: #292b75;
-        color: #fff;
-    } */
-
 }
