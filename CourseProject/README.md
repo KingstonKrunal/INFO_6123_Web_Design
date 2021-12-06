@@ -36,7 +36,7 @@ The content created has a meaningful message in order to capture the users' atte
 
 The last but not least a mobile friendly website. It helps the users' easily access whenever and wherever they want.
 
-> **Website Accessibility Compliance Strategies** \
+> **Website Accessibility Compliance Strategies**
 
 Determine Resources: The basic resources were used in order to build this website.
 
